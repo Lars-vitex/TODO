@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Todo</title>
+    <link rel="stylesheet" href="todo.css">
+    <script src="todo.js"></script>
+</head>
+<body>
+	<h1>TODOS</h1>
+    <div class="textarea-container">
+        <button id="checkAllButton"></button>
+        <textarea class="todo-text" data-info="area-text" placeholder="What needs to be done?"></textarea>
+    </div>
+    <ul id="tasks">
+    </ul>
+    <ul class="nav">
+
+    </ul> 
+    <div class="footer-container">
+        <span id="taskCount" class="taskCount">0 items left!</span>
+        <div class="middle-buttons">
+            <button id="allItemsButton">All</button>
+            <button id="activeItemsButton">Active</button>
+            <button id="completedItemsButton">Completed</button>
+        </div>
+        <button id="clearCompleted">Clear completed</button>
+    </div>
+    <p class="info-text" id="info-first">Double-click to edit a todo</p>
+    <p class="info-text">Created by Lars van den Bos</p>
+    <p class="info-text">Part of Vitex</p>
+</body>
+</html>
